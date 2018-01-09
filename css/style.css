@@ -280,12 +280,12 @@
   }
     
   /*work*/
-  .wrap__contents__work__list:nth-child(-n+3) {
+  .wrap__contents__work__list{
     margin: 0;
     display: block;
   }
 
-  .wrap__contents__work__list:nth-child(n+4) {
+  .wrap__contents__work__list {
     margin: 0;
   }
 
@@ -297,6 +297,16 @@
     font-size: 0;
     display: block;
   }
+
+  .wrap__contents__work__list:nth-child(-n+3) {
+    margin: 0;
+    display: block;
+  }
+
+  .wrap__contents__work__list:nth-child(n+5) {
+    margin-top: 0;
+  }
+
 
   /*skill*/
   .wrap__contents__skill__parameter__list {
@@ -418,8 +428,9 @@
     display: block;
   }
 
-  .wrap__contents__work__list:nth-child(n+4) {
-    margin: 0;
+  .wrap__contents__work__list:nth-child(n+5) {
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .wrap__contents__work__list:nth-child(3) {
